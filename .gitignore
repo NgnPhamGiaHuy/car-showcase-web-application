@@ -7,13 +7,15 @@
 /coverage
 
 # next.js
-/.next/
 /out/
+/.next/
+/src/.next
 
 # production
 /build
 
 # misc
+.idea
 .DS_Store
 *.pem
 .gitattributes
@@ -24,6 +26,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+/src/.env
 .env*.local
 
 # vercel
